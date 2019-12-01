@@ -1,5 +1,5 @@
 [*] if you have questions you can ask on instagram; ***yigitaydn.py*** </br>
-![](https://galeri14.uludagsozluk.com/830/gecenin-gif-i_1760380.gif) </br>
+![](https://s5.gifyu.com/images/gecenin-gif-i_1760380.md.gif) </br>
 ***[$] I'm trying to improve myself i'm a 17 years old yet. If i have any fault please, warn me because i just working with my self, no one helps me. but your feedbacks can help.*** </br>
 
 Engilish Language. </br>
